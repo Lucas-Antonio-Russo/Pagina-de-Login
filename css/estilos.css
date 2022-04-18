@@ -1,0 +1,132 @@
+body{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    background: rgb(36,120,129);
+    background: linear-gradient(60deg, rgba(36,120,129,1) 0%, rgba(67,145,155,1) 25%, rgba(48,170,221,1) 55%, rgba(0,255,198,1) 100%);
+}
+.container{
+    position: relative;
+    width: 500px;
+    height: 600px;
+    background-color: white;
+    margin:5% auto;
+    margin: auto;
+    display: flex;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px 2px rgba(0,0,0,0.25);
+    flex-direction: column;
+    text-align: center;
+    justify-content:center;
+}
+.text{
+    color: #247881;
+    font-size:xx-large;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.subtitle{
+    font-size:medium;
+    color: #247881;
+    font-weight: initial;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+.input{
+    display: flex;
+    margin: 0 auto;
+    gap: 10px;
+    width: max-content;
+    padding-top: 10px;
+    border-bottom: 2px solid #00FFC6;
+    justify-content: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-weight: 300;
+}
+.inputtext{
+    border: none;
+    width: 250px;
+}
+.inputtext:focus{
+    outline: 0px;
+}
+.entrar{
+    display: inline-block;
+    width: max-content;
+    margin: 0 auto;
+    width: 220px;
+    margin-top: 10px;
+    padding: 12px;
+    border: none;
+    background-color: #247881;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: medium;
+    cursor: pointer;
+}
+.entrar:hover{
+    opacity: 0.7;
+}
+.ou{
+    display: inline-block;
+    margin-top: 25px;
+}
+.connect{
+    display: flex;
+    border: 2px solid #247881;
+    flex-direction: row;
+    width:315px;
+    height: 55px;
+    margin: 0 auto;
+    align-items: center;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.connect:hover{
+    opacity: 0.7;
+}
+.text-socialmedia{
+    font-weight: bold;
+    font-size: medium;
+    margin-bottom: 0px;
+    text-align: left;
+    margin-left: 10px;
+}
+.img-socialmedia{
+    margin-left: 15px;
+}
+.reset-password{
+    font-size: small;
+    margin-left: 180px;
+    margin-top: 10px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.icons8{
+    margin-top: 15px;
+    font-size: small;
+}
+a{
+    color:#30AADD;
+}
+a:hover{
+    color: #00FFC6;
+}
+.reset-password:hover {
+    text-decoration: underline;
+}
+@media screen and (max-width: 500px){
+    .container{
+        border-radius: 0px;
+        box-shadow: none;
+    }
+    body{
+        background: white;
+    }
+}
+
+
